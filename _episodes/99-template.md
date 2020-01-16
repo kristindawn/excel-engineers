@@ -11,14 +11,13 @@ keypoints:
 ---
 FIXME
 
-<!-- 
-Code block examples:
+#Code block examples:
 
 Add an image:
 
 ![Forking Repositories]({{ page.root }}/fig/forking.svg)
 
-Add a callout box:
+##Add a callout box:
 
 > ## Why Doesn't My Site Appear?
 >
@@ -26,7 +25,7 @@ Add a callout box:
 > GitHub will *not* generate a website for that repository's `gh-pages` branch.
 {: .callout}
 
-Add a code example:
+##Add a code example:
 
 ~~~
 ---
@@ -37,7 +36,7 @@ other_variable: other_value
 ~~~
 {: .source}
 
-Add a block of html:
+##Add a block of html:
 
 ~~~
 <html>
@@ -48,7 +47,7 @@ Add a block of html:
 ~~~
 {: .html}
 
-Add a Challenge and Solution:
+##Add a Challenge and Solution:
 
 > ## Control Vs. Edit
 >
@@ -67,7 +66,6 @@ Add a Challenge and Solution:
 > {: .solution}
 {: .challenge}
 
--->
 
 
 {% include links.md %}
