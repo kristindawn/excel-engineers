@@ -11,7 +11,7 @@ FIXME: home page introduction
 
 > ## Prerequisites
 >
-> FIXME
+> A general understanding of using a computer and Microsoft products. 
 {: .prereq}
 
 {% include links.md %}
