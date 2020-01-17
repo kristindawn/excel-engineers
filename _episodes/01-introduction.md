@@ -70,6 +70,22 @@ In some cases you may want to store numbers as text. This is especially relevant
 > ![Starting Table](../fig/2020-01-17-EngiExcel-start.png)
 {: .callout}
 
+> ## What is wrong with this table?
+>
+> The table shown above shows the values we will need to calculate the best way to distribute the widgets to the labs, but it didn't start out looking that clean. 
+> 
+> Download the spreadsheet available here: [original spreadsheet](../data/20200117-EngiExcel-step0.xlsx)
+> > ## Solution
+> >
+> > Control mode has a grey or blue boarder and Edit mode has a green border
+> > Use "esc" and "Enter" to switch between modes
+> > You need to be in control mode (Hit "esc" if your cell is green).  Type "B" or "A".
+> > You need to be in control mode (Hit "esc" if your cell is green).  Type "X".
+> >
+> >{: .solution}
+{: .challenge}
+
+
 
    
 
