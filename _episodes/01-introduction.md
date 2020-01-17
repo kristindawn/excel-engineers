@@ -36,7 +36,7 @@ You can view and change the data type for a cell, row, or column using the **For
 
 There are two basic types of data: **numbers** and **text**. 
 
-###Numbers
+### Numbers
 
 Excel has a lot of ways to work with numbers, which makes sense since that is what it was made to do. It is important to know what kind of number Excel thinks you have entered because sometimes it guesses without your input, and it often guesses in ways that can drastically affect your calculations.
 
@@ -56,7 +56,7 @@ Excel will automatically format other kinds of numbers as well:
 -  the default number of decimal places is 2, so it may add numbers after the decimal where you don't want or drop digits that you do want
 -  Excel can only handle 15 total digits in a single number, including after the decimal place; it will round the digits after those initial 15 to 0
 
-###Text
+### Text
 
 Excel can also store values as text, sometimes referred to as labels. The default format type assigned to cells with text is General.
 
@@ -67,7 +67,7 @@ In some cases you may want to store numbers as text. This is especially relevant
 > 
 > You run a distribution center at a medium-sized university with three different campus locations. Labs on each of those campuses need 300 widgets each. Widgets are stored at three different warehouses around the area, each of which has a limited supply: Warehouse 1 has 150, Warehouse 2 has 300, and Warehouse 3 has 450. 
 > As the warehouses and labs are not co-located, there are different costs involved in getting the widgets from warehouse to lab. Those costs are as follows:
-> ![Starting Table](../fig/2020-01-17-EngiExcel-start)
+> ![Starting Table](../fig/2020-01-17-EngiExcel-start.png)
 {: .callout}
 
 
