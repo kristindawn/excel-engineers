@@ -32,8 +32,42 @@ While we have probably used a spreadsheet in Excel for one reason or another, yo
 
 ## Data Types 
 
+You can view and change the data type for a cell, row, or column using the **Format Cells...** option in the pop-up menu for whichever of those components you choose. 
+
+There are two basic types of data: **numbers** and **text**. 
+
+###Numbers
+
+Excel has a lot of ways to work with numbers, which makes sense since that is what it was made to do. It is important to know what kind of number Excel thinks you have entered because sometimes it guesses without your input, and it often guesses in ways that can drastically affect your calculations.
+
+Dates are the most commonly discussed example of how Excel messes with your numeric data. If your number is in a form that Excel thinks *might* be a date, it will likely change it to be a date. Some examples are:
+- 12/12/2012
+- 2012-12-12
+- 12/12
+- 12-12
+- Dec-12-2012
+- December 12, 2012
+
+Excel will *display* all of these in a way that is human-readable as a date, but it *stores* them as a 5-digit number. So for our example of December 12, 2012, it is actually stored in Excel as 41255. That number is the number of days since January 1, 1900 (01/01/1900) minus 1 (the original date is "1", not "0"). If you export your data to something other than Excel this formatting may be lost, leaving you with the basically meaningless number. 
+
+Excel will automatically format other kinds of numbers as well:
+- any value with numbers and an **e** in the middle will automatically get converted to a Scientific Number (ex. 1e9 becomes 1.00E+09)
+- any value stored as a number with a leading **0** will have that 0 dropped. This can be problematic for serial numbers and zip codes in New England (02155 is not the same as 2155). We will talk about a fix in the next section
+-  the default number of decimal places is 2, so it may add numbers after the decimal where you don't want or drop digits that you do want
+-  Excel can only handle 15 total digits in a single number, including after the decimal place; it will round the digits after those initial 15 to 0
+
+###Text
+
+ 
 
 
+
+
+
+
+
+
+ 
 
 
 {% include links.md %}
