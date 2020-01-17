@@ -32,7 +32,7 @@ While we have probably used a spreadsheet in Excel for one reason or another, yo
 
 ## Data Types 
 
-You can view and change the data type for a cell, row, or column using the **Format Cells...** option in the pop-up menu for whichever of those components you choose. 
+You can view and change the data type for a cell, row, or column using the **Format Cells...** option in the pop-up menu for whichever of those components you choose. This affects both how Excel stores the data and how it displays the data. Formatting can be applied to entire columns or cells, and rows, but less commonly.
 
 There are two basic types of data: **numbers** and **text**. 
 
@@ -58,7 +58,26 @@ Excel will automatically format other kinds of numbers as well:
 
 ###Text
 
- 
+Excel can also store values as text, sometimes referred to as labels. The default format type assigned to cells with text is General.
+
+In some cases you may want to store numbers as text. This is especially relevant for IDs that are composed entirely of numbers, like zip codes or serial numbers. Excel will call out these cells and ask if you want to convert them to numbers, but you can ignore this warning.
+
+
+> ## Simple Example
+> Through this workshop we will go through the steps of preparing the data for one simple problem from beginning to end. 
+> 
+> You run a distribution center at a medium-sized university with three different campus locations. Labs on each of those campuses need 300 widgets each. Widgets are stored at three different warehouses around the area, each of which has a limited supply: Warehouse 1 has 150, Warehouse 2 has 300, and Warehouse 3 has 450. 
+> As the warehouses and labs are not co-located, there are different costs involved in getting the widgets from warehouse to lab. Those costs are as follows:
+> |Unit Cost  | Lab 1 | Lab 2 | Lab 3 |
+> |-----------|------:|------:|------:|
+> |Warehouse 1| 26    | 37    | 64    | 
+> |Warehouse 2| 57    | 31    | 45    |
+> |Warehouse 1| 17    | 40    | 53    |           
+
+{: .challenge}
+
+
+   
 
 
 
