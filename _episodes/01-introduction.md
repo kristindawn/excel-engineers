@@ -36,7 +36,7 @@ You can view and change the data type for a cell, row, or column using the **For
 
 There are two basic types of data: **numbers** and **text**. 
 
-### Numbers
+**Numbers**
 
 Excel has a lot of ways to work with numbers, which makes sense since that is what it was made to do. It is important to know what kind of number Excel thinks you have entered because sometimes it guesses without your input, and it often guesses in ways that can drastically affect your calculations.
 
@@ -56,7 +56,7 @@ Excel will automatically format other kinds of numbers as well:
 -  the default number of decimal places is 2, so it may add numbers after the decimal where you don't want or drop digits that you do want
 -  Excel can only handle 15 total digits in a single number, including after the decimal place; it will round the digits after those initial 15 to 0
 
-### Text
+**Text**
 
 Excel can also store values as text, sometimes referred to as labels. The default format type assigned to cells with text is General.
 
