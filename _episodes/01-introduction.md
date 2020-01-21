@@ -74,13 +74,17 @@ In some cases you may want to store numbers as text. This is especially relevant
 >
 > The table shown above shows the values we will need to calculate the best way to distribute the widgets to the labs, but it didn't start out looking that clean. 
 > 
-> Download the spreadsheet available here: [original spreadsheet](../data/20200117-EngiExcel-step0.xlsx)
+> Download the spreadsheet available here: [original spreadsheet](../data/20200117-EngiExcel-step0.xlsx).
+>
+> There are 3 data-type/number types in this version of the spreadsheet. While the values will *probably* act the same when we use them in calculations, that is not necessarily the case. The lack of consistency also makes them hard to evaluate just by looking at them, which could be confusing to future users of the spreadsheet. To move on with the example we will need to choose a number type and to find and correct the inconsistent cells.
+>
 > > ## Solution
+> > 
+> > The three data types are **Number**, **Currency**, and **Text**. You can tell because of the decimal places, $ signs, and the left justification of the bottom right cell.
 > >
-> > Control mode has a grey or blue boarder and Edit mode has a green border
-> > Use "esc" and "Enter" to switch between modes
-> > You need to be in control mode (Hit "esc" if your cell is green).  Type "B" or "A".
-> > You need to be in control mode (Hit "esc" if your cell is green).  Type "X".
+> > In this example you could use either the "General", "Number" (with 2 decimal places), or "Currency" number types. Since we aren't going to be using the accounting functions and the fact that the table is labeled as "Unit Cost", we will use "Number". It is the simplest option that clearly identifies the values as numeric.
+> >
+> > You can highlight the whole table and change all of the data types at once. Highlight and call up the menu, choose **Format Cells...** and choose **Number**.
 > >
 > >{: .solution}
 {: .challenge}
