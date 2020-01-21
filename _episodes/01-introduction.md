@@ -88,19 +88,5 @@ In some cases you may want to store numbers as text. This is especially relevant
 > {: .solution}
 {: .challenge}
 
-
-
-   
-
-
-
-
-
-
-
-
- 
-
-
 {% include links.md %}
 
