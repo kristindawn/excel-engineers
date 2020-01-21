@@ -85,7 +85,6 @@ In some cases you may want to store numbers as text. This is especially relevant
 > > In this example you could use either the "General", "Number" (with 2 decimal places), or "Currency" number types. Since we aren't going to be using the accounting functions and the fact that the table is labeled as "Unit Cost", we will use "Number". It is the simplest option that clearly identifies the values as numeric.
 > >
 > > You can highlight the whole table and change all of the data types at once. Highlight and call up the menu, choose **Format Cells...** and choose **Number**.
-> >
 > {: .solution}
 {: .challenge}
 
