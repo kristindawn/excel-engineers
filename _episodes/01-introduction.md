@@ -86,7 +86,7 @@ In some cases you may want to store numbers as text. This is especially relevant
 > >
 > > You can highlight the whole table and change all of the data types at once. Highlight and call up the menu, choose **Format Cells...** and choose **Number**.
 > >
-> >{: .solution}
+> {: .solution}
 {: .challenge}
 
 
