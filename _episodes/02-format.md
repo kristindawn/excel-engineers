@@ -27,11 +27,33 @@ As we go forward with our example we will talk about some more strategies:
 
 > ## Add the cells for the rest of the problem
 > 
-> The first section of data for the problem shows the amount it costs to send each widget from each of the warehouses to each of the labs. The problem we are trying to solve with the data is to find the most cost-effective way to ship 300 widgets to each of the labs from warehouses that have the following supply: Warehouse 1 - 150, Warehouse 2 - 300, Warehouse 3 - 450. 
+> The first section of data for the problem shows the amount it costs to send each widget from each of the warehouses to each of the labs. The problem we are trying to solve with that data is to **find the most cost-effective way to ship 300 widgets to each of the labs from warehouses that have the following supply: Warehouse 1 - 150, Warehouse 2 - 300, Warehouse 3 - 450**. 
 > 
-> The element that we are going to ask Excel to calculate for us is the shipments from the warehouses and to the labs. In order to use solver later, we will set up a table to hold that data. We will also set up rows and columns to hold the other requirements that need to be fulfilled that are mentioned above.
+> The element that we are going to ask Excel to calculate for us is the shipments from the warehouses and to the labs. In order to use solver later, we will **set up a table to hold that data**. We will also set up **rows and columns to hold the other requirements that need to be fulfilled that are mentioned above**.
 >
 {: .challenge}
+
+## Lining Up Rows and Columns
+
+First we will add the table that will contain the final values for the shipments. This table will be blank (no values, no formulas) until we use Solver to solve the problem. It will mirror our original table.
+
+When you are creating multiple tables in the same spreadsheet that have columns with the same headers, it is good practice to line those tables up either by the rows or the columns. In this case, we will put the new table **below** the original, so we should line up the columns that relate to each of the Labs. Putting a couple of rows between the tables will make them easier to differentiate. You want to add these details as early as possible, as adjusting rows and columns later could affect your formulas. 
+
+Your spreadsheet should now look like this:
+
+![Starting Table](../fig/2020-01-17-EngiExcel-addShipment.png)
+
+Notice that we included the outlines for the cells and the bolded headers.
+
+We also need to add the numbers of widgets available and required. As the required widgets are related to the labs, we can put the row for this data below our shipment table. For our calculations, we will also need a row that will contain a formula to make sure the total number of widgets going to each lab is equal to the request. 
+
+We will put in the row for the formulas first. We will label this row **Total Sent**. The columns will line up with the lab headers.
+
+After one blank row, we will add the column with the widgets requested. The label will be **Total Request** and each of the columns for the labs will have a value of **300**. 
+
+The table will now look like this:
+
+![Starting Table](../fig/2020-01-17-EngiExcel-sentRequest.png)
 
 {% include links.md %}
 
