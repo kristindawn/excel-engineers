@@ -4,11 +4,13 @@ teaching: 0
 exercises: 0
 questions:
 - "How can I make my tables easily understandable by humans?"
-- 
+- "What are good practices for displaying multiple tables in one spreadsheet?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand the difference between human-readable and machine-readable formatting."
+- "Think through a problem and add the space for the parts of the solution."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Formatting in a spreadsheet doesn't necessarily translate to data."
+- "Thinking through your problem can help you set up a spreadsheet that is easy to understand."
 ---
 
 The data in spreadsheets often needs to be human readable in addition to being something that the computer can understand. It is important to remember that sometimes the things we can see in a spreadsheet have no meaning to the computer, so if you transfer data from one format to another you may lose key information. Below is an example:
@@ -54,6 +56,14 @@ After one blank row, we will add the column with the widgets requested. The labe
 The table will now look like this:
 
 ![Starting Table](../fig/2020-01-17-EngiExcel-sentRequest.png)
+
+We can also add the original stock of widgets for each warehouse. Since the data associated with each warehouse is stored in rows, we will put a new column to the right of our blank Shipments table. As with the data for the labs, we will add a blank column for the formulas we will need to make sure that the total getting shipped from the warehouse doesn't exceed the stock.
+
+After one blank column, add a column for the **Total Sent** and for the **Total Stock**. Make sure the rows line up with the appropriate warehouse and put in **150**, **300**, and **450** for Warehouse 1, 2, and 3, respectively. 
+
+The final version of the formatted spreadsheet should look like this:
+
+![Starting Table](../fig/2020-01-17-EngiExcel-sentStock.png) 
 
 {% include links.md %}
 
