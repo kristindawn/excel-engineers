@@ -15,7 +15,7 @@ keypoints:
 
 The data in spreadsheets often needs to be human readable in addition to being something that the computer can understand. In this episode, we will look at ways to make our spreadsheets easy to understand.
 
-> ##Conditional Formatting
+> ## Conditional Formatting
 >
 > Conditional formatting can be a quick way to get a look at your data. You can apply conditional formatting by selecting the cells you want to include and choosing the **Conditional Formatting** pull-down menu on the **Home** ribbon. There are different kinds of conditional formatting, but a simple example is using **Color Scales** to apply a gradient to show the values from greatest to least. 
 > It is important to remember that sometimes the things we can see in a spreadsheet have no meaning to the computer, so if you transfer data from one format to another you may lose key information. Below is an example:
