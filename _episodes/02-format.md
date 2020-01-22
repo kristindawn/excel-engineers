@@ -13,11 +13,17 @@ keypoints:
 - "Thinking through your problem can help you set up a spreadsheet that is easy to understand."
 ---
 
-The data in spreadsheets often needs to be human readable in addition to being something that the computer can understand. It is important to remember that sometimes the things we can see in a spreadsheet have no meaning to the computer, so if you transfer data from one format to another you may lose key information. Below is an example:
+The data in spreadsheets often needs to be human readable in addition to being something that the computer can understand. In this episode, we will look at ways to make our spreadsheets easy to understand.
 
-![Starting Table](../fig/2020-01-17-EngiExcel-condColor.png)
-
-This is our example table, but with conditional formatting applied - yellow is the lowest to bright green for the  highest. This formatting makes it easy for us to see what is happening in the table, but the analysis of which numbers are higher or lower is limited to Excel. This information would have to be calculated in the context of another statistics program. The same would apply if we manually **bolded** the numbers we wanted to use or made the text a different color.
+> ##Conditional Formatting
+>
+> Conditional formatting can be a quick way to get a look at your data. You can apply conditional formatting by selecting the cells you want to include and choosing the **Conditional Formatting** pull-down menu on the **Home** ribbon. There are different kinds of conditional formatting, but a simple example is using **Color Scales** to apply a gradient to show the values from greatest to least. 
+> It is important to remember that sometimes the things we can see in a spreadsheet have no meaning to the computer, so if you transfer data from one format to another you may lose key information. Below is an example:
+>
+> ![Starting Table](../fig/2020-01-17-EngiExcel-condColor.png)
+>
+> This is our example table, but with conditional formatting applied - yellow is the lowest to bright green for the  highest. This formatting makes it easy for us to see what is happening in the table, but the analysis of which numbers are higher or lower is limited to Excel. This information would have to be calculated in the context of another statistics program. The same would apply if we manually **bolded** the numbers we wanted to use or made the text a different color.
+{: .callout}
 
 ## Formatting for Clarity
 
