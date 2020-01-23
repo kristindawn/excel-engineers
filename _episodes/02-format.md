@@ -55,7 +55,7 @@ Notice that we included the outlines for the cells and the bolded headers.
 
 We also need to add the numbers of widgets available and required. As the required widgets are related to the labs, we can put the row for this data below our shipment table. For our calculations, we will also need a row that will contain a formula to make sure the total number of widgets going to each lab is equal to the request. 
 
-We will put in the row for the formulas first. We will label this row **Total Sent**. The columns will line up with the lab headers.
+We will put in the row for the formulas first. We will label this row **Total Received**. The columns will line up with the lab headers.
 
 After one blank row, we will add the column with the widgets requested. The label will be **Total Request** and each of the columns for the labs will have a value of **300**. 
 

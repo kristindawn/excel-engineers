@@ -45,11 +45,11 @@ This way is okay when you have a small number of cells to add together, but ther
 ~~~
 {: .source}
 
-Excel functions are always shown in call capital letters. The SUM function takes the cells that you want to sum as an **argument**, inside the parentheses. You can choose them individually or as a range of cells. In this case we are adding up the number of widgets sent from Warehouse0 1 to all of the labs, which is found in cells C10, D10, and E10. 
+Excel functions are always shown in call capital letters. The SUM function takes the cells that you want to sum as an **argument**, inside the parentheses. You can choose them individually or as a range of cells. In this case we are adding up the number of widgets sent from Warehouse 1 to all of the labs, which is found in cells C10, D10, and E10. 
 
 We can choose the cell with this formula and copy it down to the cells for Warehouse 2 and 3. This is accomplished by clicking on the corner of the cell you want to copy and dragging it down. The formula will adjust so that it is summing the data for each row instead of only for row 10.
 
-The same principles work for copying across rows. We can go to the cell for the **Total Sent** to the labs and calculate the sum by adding the widgets sent from each 
+The same principles work for copying across rows. We can go to the cell for the **Total Received** by the labs and calculate the sum by adding the widgets sent from each 
 
 ## Cell References 
  
