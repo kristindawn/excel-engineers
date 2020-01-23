@@ -33,7 +33,21 @@ The second choice we need to make in Solver is to indicate the **Variable Cells*
 
 **Type Sent in the By Changing Variable Cells: box.**
 
-The next box allows us to set additional contraints on our analysis. In our case, the Total Sent from each warehouse can't exceed the Total Stock and the Total    
+The next box allows us to set additional constraints on our analysis. In our case, the **Total Sent** from each warehouse can't exceed the **Total Stock** and the **Total Received** by each lab should equal the **Total Request**. Click on the **Add** button and the following window will show up:
+
+![Change Constraint](../fig/2020-01-17-EngiExcel-changeConstraint.png)     
+
+The **Cell Reference** is the cell or group of cells with the function in it, with the values changing based on the **Variable Cells**. The **Constraint** is the cells or cells that have the values that remain constant. You can choose your operator from the pull-down menu, from **<=, >=, =, bin, diff, or int**. We won't talk about bin (binary), diff (difference), or int (integer) in this lesson. If you click the **Add** button you will get the chance to add another constraint, whereas if you click **OK** it will save that constraint and close the window. The **Cancel** button closes the window without saving.
+
+The last thing you need to do is **Select a Solving Method:**. The default is **GRG Nonlinear**. If you are not absolutely sure that your problem is linear, this is the best choice of method. The **Simplex LP** method is for linear problems and the **Evolutionary** method is for non-smooth problems. Your final Solver window should look like this:
+
+![Final Solver settings](../fig/2020-01-17-EngiExcel-solverFinal.png) 
+
+When you click **Solve** you will get the following information about the Solver solution:
+
+![Solver Results](../fig/2020-01-17-EngiExcel-solverResults.png)  
+
+ 
 
   
 
