@@ -63,7 +63,7 @@ You can create a **mixed reference** as well, by choosing to use $ in front of *
 
 ## Defining Named Cells
 
-You can give names to cells or ranges of cells to make it easier to reference them in functions later on. Now that we have seen how functions work using cell indices, let's **Define Names** to use in our last function. We are going to be calculating the total cost of shipping the widgets sent from each warehouse to each lab so that we can find the way that costs the least. This will require us to multiply the array representing **Unit Cost** by **Shipment**, and then adding all of those values together.
+You can give names to cells or ranges of cells to make it easier to reference them in functions later on. Now that we have seen how functions work using cell indices, let's **Define Names** to use in our last function. We are going to be calculating the total cost of shipping the widgets sent from each warehouse to each lab so that we can find the way that costs the least. This will require us to multiply the array representing **Unit Cost** by **Sent**, and then adding all of those values together.
 
 Select the cells that you want to name. Once that is done, go to the **Formulas** tab in the ribbon and choose **Define Name**. The box will look like this:
 
@@ -100,6 +100,8 @@ The SUMPRODUCT function that we are going to use works in a very similar way to 
 The cells in the function should be highlighted in different colors, with the names shown in the same color in the function bar like this:
 
 ![Starting Table](../fig/2020-01-17-EngiExcel-sumproduct.png)
+
+Name your new cell **TotalCost**.
 
 > ## Your Spreadsheet is Ready for Solver!
 > 

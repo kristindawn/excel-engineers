@@ -65,7 +65,7 @@ The table will now look like this:
 
 We can also add the original stock of widgets for each warehouse. Since the data associated with each warehouse is stored in rows, we will put a new column to the right of our blank Shipments table. As with the data for the labs, we will add a blank column for the formulas we will need to make sure that the total getting shipped from the warehouse doesn't exceed the stock.
 
-After one blank column, add a column for the **Total Sent** and for the **Total Stock**. Make sure the rows line up with the appropriate warehouse and put in **150**, **300**, and **450** for Warehouse 1, 2, and 3, respectively. 
+After one blank column, add a column for the **Total Sent**, leave a column, and one for the **Total Stock**. Make sure the rows line up with the appropriate warehouse and put in **150**, **300**, and **450** for Warehouse 1, 2, and 3, respectively. 
 
 The final version of the formatted spreadsheet should look like this:
 
