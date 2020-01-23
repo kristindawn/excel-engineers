@@ -45,9 +45,13 @@ The last thing you need to do is **Select a Solving Method:**. The default is **
 
 When you click **Solve** you will get the following information about the Solver solution:
 
-![Solver Results](../fig/2020-01-17-EngiExcel-solverResults.png)  
+![Solver Results](../fig/2020-01-17-EngiExcel-solverResultsWindow.png)  
 
- 
+You can save the scenario so that you can run it again. If you run it in a different spreadsheet you will need to make sure that you have defined names using the exact same names.
+
+The final spreadsheet should look like this:
+
+![Final spreadsheet](../fig/2020-01-17-EngiExcel-finalSpreadsheet.png)   
 
   
 
